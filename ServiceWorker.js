@@ -6,6 +6,7 @@ self.addEventListener("install", (e) => {
     )
 });
 
+// force new version comment
 
 self.addEventListener("fetch", (e) => {
     e.respondWith(
