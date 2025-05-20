@@ -7,6 +7,7 @@ self.addEventListener("install", (e) => {
 });
 
 // force new version comment
+// another one
 self.addEventListener("fetch", (e) => {
     e.respondWith(
         caches.match(e.request).then(resp => {
